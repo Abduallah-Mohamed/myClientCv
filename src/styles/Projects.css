@@ -1,0 +1,39 @@
+.Projects {
+    position: relative;
+    z-index: 3;
+    padding: 5em 0;
+    background-color: #f6f7fd;
+}
+.border-header {
+    border-left: 5px solid #e3872d;
+    margin-bottom: 5em;
+    padding-left: 2rem;
+}
+.border-header h1 {
+    font-size: 55px;
+}
+
+#first-row {
+    margin: 30px 0;
+    margin-top: 0 !important;
+}
+
+#second-row {
+    margin: 30px 0;
+}
+
+#third-row {
+    margin: 30px 0;
+}
+
+@media screen and (max-width: 992px) {
+    #first-row .col,
+    #second-row .col,
+    #third-row .col {
+        margin: 20px auto;
+    }
+
+    #first-row .co {
+        margin-top: 0px !important;
+    }
+}

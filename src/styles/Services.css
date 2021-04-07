@@ -1,0 +1,57 @@
+.Services {
+    position: relative;
+    z-index: 3;
+    padding: 60px 0;
+    background-color: white;
+}
+.first-row {
+    border-left: 5px solid #e3872d;
+    margin-left: 3px !important;
+    margin-bottom: 50px;
+}
+
+.first-row h2 {
+    font-size: 55px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.first-row small {
+    font-size: 27px;
+    font-weight: 300;
+}
+
+.card {
+    box-shadow: 1px 1px 7px 7px rgba(0, 0, 0, 0.25);
+    transition: ease-out all 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card .card-body svg {
+    color: #e3872d;
+    /* font-size: 20px; */
+    /* font-weight: bolder; */
+    padding-bottom: 10px;
+    margin-left: -6px;
+}
+
+.card .card-body .card-title {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 992px) {
+    .colCards {
+        margin: 20px auto;
+    }
+
+    #row-cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
